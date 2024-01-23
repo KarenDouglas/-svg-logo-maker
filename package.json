@@ -1,0 +1,29 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "cli for generating simple svg shapes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarenDouglas/-svg-logo-maker.git"
+  },
+  "keywords": [
+    "svg",
+    "cli"
+  ],
+  "author": "Karen Douglas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarenDouglas/-svg-logo-maker/issues"
+  },
+  "homepage": "https://github.com/KarenDouglas/-svg-logo-maker#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  }
+}
