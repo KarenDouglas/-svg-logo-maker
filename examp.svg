@@ -1,11 +1,12 @@
 <svg version="1.1"
      width="300" height="200"
      xmlns="http://www.w3.org/2000/svg">
+       <!-- -->
 
-  <rect width="100%" height="100%" fill="red" />
+
 <!-- ADD SHAPE HERE -->
   <circle cx="150" cy="100" r="80" fill="green" />
 <!-- ADD COLOR TO TEXT TAG AND TEXT TO GO INSIDE TAG -->
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">TEXT</text>
+  <text x="150" y="115" font-size="40" text-anchor="middle" fill="white">TEXT</text>
 
 </svg>
