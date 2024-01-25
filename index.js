@@ -44,9 +44,10 @@ const questions = [
 const promptUser = () => {
     return inquirer.prompt(questions)
 }
-
+// takes in data from prompts 
 promptUser() 
         .then((answers) => {
+            // returns answers and uses answers to render shape
             const {text, textColor, shape, shapeColor} = answers
             let shapeSVG
             if(shape === 'circle'){
@@ -56,6 +57,7 @@ promptUser()
             }else{
                 shapeSVG = new Square().renderSVG(shape,shapeColor,text,textColor)
             }
+            // writes svg to examples folder with svg file
             writeFile(`./examples/${shape}.svg`, shapeSVG, (err) => {
                 if (err) console.error(err);
                 console.info(`The ${shape}.svg has been generated!`);
