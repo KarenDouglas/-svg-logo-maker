@@ -1,7 +1,6 @@
 const inquirer = require('inquirer')
 const {Circle, Triangle, Square} = require('./lib/shapes')
 const {writeFile} = require('fs');
-const { execFileSync } = require('child_process');
 
 // list of question for prompt
 const questions = [
